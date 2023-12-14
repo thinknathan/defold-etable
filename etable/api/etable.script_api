@@ -1,0 +1,43 @@
+- name: etable
+  type: table
+  desc: Functions for interacting with the etable native extension
+  members:
+    - name: empty
+      type: function
+      desc: "Clears all values from the given table."
+      parameters:
+        - name: table
+          type: table
+
+    - name: index_of
+      type: function
+      desc: "Find the index/key of the first occurrence of a value in a Lua table."
+      parameters:
+        - name: table
+          type: table
+        - name: value
+          type: any
+      returns:
+        type: [number, string]
+
+    - name: remove
+      type: function
+      desc: "Remove a value with a specific key from a Lua table."
+      parameters:
+        - name: table
+          type: table
+        - name: key
+          type: any
+
+    - name: slice
+      type: function
+      desc: "Create a new table containing a subset of the elements from a Lua table."
+      parameters:
+        - name: table
+          type: table
+        - name: start
+          type: number
+        - name: end
+          type: number
+      returns:
+        type: table

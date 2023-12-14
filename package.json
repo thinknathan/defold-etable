@@ -1,0 +1,20 @@
+{
+	"name": "@types/defold-etable",
+	"version": "1.0.0",
+	"description": "Types for Defold eTable extension",
+	"license": "CC0-1.0",
+	"files": ["**/*.d.ts"],
+	"types": "./@types/etable.d.ts",
+	"main": "./@types/etable",
+	"scripts": {
+		"check": "tsc --noEmit",
+		"prettier": "prettier \"./**.d.ts\" --write"
+	},
+	"devDependencies": {
+		"prettier": "^3.0.0",
+		"typescript": "~5.2.2"
+	},
+	"peerDependencies": {
+		"typescript-to-lua": ">=1.0.0"
+	}
+}
