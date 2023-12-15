@@ -1,6 +1,6 @@
 - name: etable
   type: table
-  desc: Functions for interacting with the etable native extension
+  desc: "A native extension for Defold with functions to manipulate tables in Lua scripts."
   members:
     - name: empty
       type: function
@@ -9,9 +9,18 @@
         - name: table
           type: table
 
+    - name: remove
+      type: function
+      desc: "Removes a value with a specific key from a table."
+      parameters:
+        - name: table
+          type: table
+        - name: key
+          type: any
+
     - name: index_of
       type: function
-      desc: "Find the index/key of the first occurrence of a value in a Lua table."
+      desc: "Finds the index/key of the first occurrence of a value in the given table."
       parameters:
         - name: table
           type: table
@@ -20,18 +29,9 @@
       returns:
         type: [number, string]
 
-    - name: remove
-      type: function
-      desc: "Remove a value with a specific key from a Lua table."
-      parameters:
-        - name: table
-          type: table
-        - name: key
-          type: any
-
     - name: slice
       type: function
-      desc: "Create a new table containing a subset of the elements from a Lua table."
+      desc: "Creates a new table containing a subset of the elements from an existing table."
       parameters:
         - name: table
           type: table
