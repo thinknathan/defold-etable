@@ -1,10 +1,12 @@
-# defold-etable
+<img src="_docs/def-etable-x1.png" alt="Def-eTable">
 
-A native extension for Defold with functions to manipulate tables in Lua scripts.
+# Def-eTable
+
+This Defold native extension implements functions to manipulate tables in Lua scripts.
 
 Warning: in Lua, table values are not guaranteed to have a stable order.
 
-## Functions
+## API
 
 - `etable.empty(table)`
 - Clears all values from the given table.
@@ -86,7 +88,3 @@ local slicedTable = etable.slice(myTable, 2, 4)  -- Result: Sliced table: banana
 -- Clears all values from the given table.
 etable.empty(myTable)  -- Result: After empty: { }
 ```
-
-## Background
-
-This extension was created with assistance from Chat-GPT 3.5 and 4.
