@@ -2,6 +2,8 @@
 
 # Def-eTable
 
+[![Build with bob](https://github.com/thinknathan/defold-etable/actions/workflows/bob.yml/badge.svg)](https://github.com/thinknathan/defold-etable/actions/workflows/bob.yml)
+
 This Defold native extension implements functions to manipulate tables in Lua scripts.
 
 Warning: in Lua, table values are not guaranteed to have a stable order.
