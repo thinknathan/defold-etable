@@ -2,7 +2,7 @@
 
 # Def-eTable
 
-[![Build with bob](https://github.com/thinknathan/defold-etable/actions/workflows/bob.yml/badge.svg)](https://github.com/thinknathan/defold-etable/actions/workflows/bob.yml)
+[![Build with bob](https://github.com/thinknathan/defold-etable/actions/workflows/bob.yml/badge.svg)](https://github.com/thinknathan/defold-etable/actions/workflows/bob.yml) ![GitHub License](https://img.shields.io/github/license/thinknathan/defold-etable)
 
 This Defold native extension implements functions to manipulate tables in Lua scripts.
 
